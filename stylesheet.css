@@ -116,13 +116,13 @@
 }
 
 a {
-    color: #1772d0;
+    color: #89b4fa;
     text-decoration: none;
 }
 
 a:focus,
 a:hover {
-    color: #f09228;
+    color: #f5c2e7;
     text-decoration: none;
 }
 
@@ -139,11 +139,13 @@ a {
 strong {
     font-family: "Lato", Verdana, Helvetica, sans-serif;
     font-size: 14px;
+    color: #f38ba8;
 }
 
 heading {
     font-family: "Lato", Verdana, Helvetica, sans-serif;
     font-size: 22px;
+    color: #b4befe;
 }
 
 papertitle {
@@ -179,9 +181,15 @@ name {
 }
 
 span.highlight {
-    background-color: #ffffd0;
+    background-color: #f9e2af;
 }
 
 body {
-    background-color: lightcyan;
+    background-color: #1e1e2e;
+    color: #cdd6f4;
+}
+
+/* Add table and border color adjustments for Catppuccin theme */
+table, th, td {
+    border-color: #313244;
 }
